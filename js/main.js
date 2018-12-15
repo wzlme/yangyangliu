@@ -4,7 +4,7 @@
 
 //加载恋爱天数
 function loadLoveDay(id) {
-    var start = '2017/12/17 00:00:00';  //开始时间
+    var start = '2017/12/16 00:00:00';  //开始时间
     var today = new Date();    //结束时间
     var mills = today.getTime() - new Date(start).getTime();//时间差的毫秒数
 
